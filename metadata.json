@@ -1,0 +1,6 @@
+{
+  "name": "CodeVerse IDE",
+  "description": "The Ultimate AI-Powered Browser IDE for Mobile & Desktop, complete with virtual terminal, Git integration, extension marketplace, and Gemini coding assistant.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
