@@ -47,3 +47,15 @@ export default defineConfig(() => {
     },
   };
 });
+
+export default defineConfig(() => {
+  return {
+    base: './', // 🟢 Forces relative asset paths so it works in sub-folders
+    plugins: [
+      react(),
+      tailwindcss(),
+      // ...
+    ],
+    // ...
+  };
+});
