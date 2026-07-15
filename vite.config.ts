@@ -10,6 +10,7 @@ dotenv.config();
 
 export default defineConfig(() => {
   return {
+    base: './', // 🟢 Forces relative asset paths so it works in sub-folders
     plugins: [
       react(),
       tailwindcss(),
@@ -48,14 +49,3 @@ export default defineConfig(() => {
   };
 });
 
-export default defineConfig(() => {
-  return {
-    base: './', // 🟢 Forces relative asset paths so it works in sub-folders
-    plugins: [
-      react(),
-      tailwindcss(),
-      // ...
-    ],
-    // ...
-  };
-});
